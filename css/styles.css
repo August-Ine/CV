@@ -1,0 +1,16 @@
+hr{
+    width: 7%;
+    height: 10px;
+    border-style: dotted none none none;
+    border-top-width: thick;
+    border-top-color: rgb(129, 96, 53);
+}
+h1{
+    color:#66BFBF;
+}
+h3{
+    color:#66BFBF;
+}
+body{
+    background-color: #66BFBF;
+}
