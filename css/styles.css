@@ -1,16 +1,73 @@
-hr{
-    width: 7%;
-    height: 10px;
-    border-style: dotted none none none;
-    border-top-width: thick;
-    border-top-color: rgb(129, 96, 53);
+/* fonts */
+body {
+    text-align: center;
 }
-h1{
-    color:#66BFBF;
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
 }
-h3{
-    color:#66BFBF;
+
+h2,
+p {
+    font-family: 'Poppins', sans-serif;
 }
-body{
-    background-color: #66BFBF;
+
+h3 {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* all sections */
+.colored-section {
+    background-color: #93BFCF;
+    color: #fff;
+}
+
+.white-section {
+    color: #000;
+}
+
+.container-fluid {
+    padding: 5% 10%;
+    text-align: center;
+}
+
+.section-content {
+    width: 60%;
+    margin: auto;
+}
+
+/* title section */
+#title {
+    padding: 5% 10%;
+}
+
+#profile-image {
+    border-radius: 100%;
+}
+
+#profile-image-col {
+    text-align: center;
+}
+
+/* Education */
+#education-list {
+    text-align: left;
+}
+
+/* skills */
+#carousel-image {
+    width: 60%;
+}
+
+#skills {
+    /* background-color: #BDCDD6; */
+}
+
+#skills-table {
+    margin: auto;
+}
+
+/* hobbies section */
+#hobbies-list {
+    text-align: left;
 }
