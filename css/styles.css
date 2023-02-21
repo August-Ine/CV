@@ -7,6 +7,8 @@ h1 {
     font-family: 'Montserrat', sans-serif;
 }
 
+h2 {}
+
 h2,
 p {
     font-family: 'Poppins', sans-serif;
@@ -16,10 +18,14 @@ h3 {
     font-family: 'Ubuntu', sans-serif;
 }
 
+nav {
+    width: 45%;
+}
+
 /* all sections */
 .colored-section {
     background-color: #93BFCF;
-    color: #fff;
+    color: #000;
 }
 
 .white-section {
@@ -37,9 +43,24 @@ h3 {
 }
 
 /* title section */
-#title {
-    padding: 5% 10%;
+.nav-link {
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 45px;
 }
+
+#title {
+    padding: 1% 10% 7%;
+}
+
+#title h1 {
+    color: #4b565d;
+}
+
+#title h2 {
+    color: #293945;
+}
+
 
 #profile-image {
     border-radius: 100%;
@@ -52,6 +73,15 @@ h3 {
 /* Education */
 #education-list {
     text-align: left;
+}
+
+#education h3 {
+    color: #7d8f9d;
+    font-weight: 500;
+}
+
+#education p {
+    font-style: italic;
 }
 
 /* skills */
@@ -70,4 +100,40 @@ h3 {
 /* hobbies section */
 #hobbies-list {
     text-align: left;
+}
+
+/* footer */
+#footer {
+    text-align: center;
+    margin: 30px;
+}
+
+.footer-icon {
+    margin: 2% 3%;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #000;
+}
+
+/* contact me page */
+#contact-me-section {
+    padding: 1% 5% 10%;
+
+}
+
+.card-img-top {
+    width: 60%;
+}
+
+.contact-me-row {
+    margin: 3% 10%;
+}
+
+.contact-card {
+    margin: auto;
+}
+
+.contact-me-form {
+    margin: auto;
+    width: 60%;
 }
