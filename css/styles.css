@@ -59,6 +59,26 @@ nav {
     color: #293945;
 }
 
+.title-paragraph {
+    line-height: 2.5rem;
+    text-align: left;
+    font-style: italic;
+}
+
+#title-splash-div {
+    width: 23%;
+    height: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background-image: url("images/splash-two.jpg");
+    margin: 0 auto 0 0;
+    background-size: cover;
+}
+
+.title-row {
+    z-index: 2;
+}
 
 #profile-image {
     border-radius: 100%;
@@ -66,6 +86,7 @@ nav {
 
 #profile-image-col {
     text-align: center;
+    margin: auto;
 }
 
 /* Education */
