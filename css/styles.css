@@ -1,16 +1,171 @@
-hr{
-    width: 7%;
-    height: 10px;
-    border-style: dotted none none none;
-    border-top-width: thick;
-    border-top-color: rgb(129, 96, 53);
+/* fonts */
+body {
+    text-align: center;
 }
-h1{
-    color:#66BFBF;
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
 }
-h3{
-    color:#66BFBF;
+
+h2,
+p {
+    font-family: 'Poppins', sans-serif;
 }
-body{
-    background-color: #66BFBF;
+
+h3 {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* all sections */
+.colored-section {
+    background-color: #93BFCF;
+    color: #000;
+}
+
+.white-section {
+    color: #000;
+}
+
+.container-fluid {
+    padding: 5% 10%;
+    text-align: center;
+}
+
+.section-content {
+    width: 60%;
+    margin: auto;
+}
+
+/* title section */
+.nav-link {
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 45px;
+}
+
+#title {
+    padding: 1% 7% 10% 1%;
+}
+
+#title h1 {
+    color: #4b565d;
+}
+
+#title h2 {
+    color: #293945;
+}
+
+.title-paragraph {
+    line-height: 2.5rem;
+    text-align: left;
+    font-style: italic;
+}
+
+.title-row {
+    z-index: 2;
+}
+
+#profile-image {
+    border-radius: 100%;
+}
+
+#profile-image-col {
+    text-align: center;
+    margin: auto;
+}
+
+/* Education */
+#education-list {
+    text-align: left;
+}
+
+#education h3 {
+    color: #7d8f9d;
+    font-weight: 500;
+}
+
+#education p {
+    font-style: italic;
+}
+
+/* Projects */
+#myCarousel {
+    height: auto;
+}
+
+.carousel-caption {
+    color: #000;
+}
+
+#to-do-image {
+    width: 30%;
+    margin: auto;
+}
+
+#projects {
+    padding: 4% 7% 7% 7%;
+}
+
+/* skills */
+
+.skills {
+    text-align: left;
+}
+
+.soft-skills {
+    margin: auto;
+}
+
+.skills-paragraph {
+    width: 60%;
+    margin: auto;
+    padding-top: 3em;
+}
+
+
+/* hobbies section */
+#hobbies-list {
+    text-align: left;
+}
+
+/* footer */
+#footer {
+    text-align: center;
+    margin: 30px;
+}
+
+.footer-icon {
+    margin: 2% 3%;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #000;
+}
+
+/* contact me page */
+#contact-me-section {
+    padding: 1% 5% 10%;
+
+}
+
+.card-img-top {
+    width: 60%;
+}
+
+.contact-me-row {
+    margin: 3% 10%;
+}
+
+.contact-card {
+    margin: auto;
+}
+
+.contact-me-form {
+    margin: auto;
+    width: 60%;
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        font-size: 4rem;
+    }
 }
