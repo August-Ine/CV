@@ -1,2 +1,2 @@
 # CV
-Html files for a static CV website
+Html files for my static CV website
